@@ -24,7 +24,7 @@ A dynamic, interactive, and premium pop-art comic-themed 3D developer portfolio 
    - **02 — WEALTHIQ**: A gamified modern fintech web app with smart savings tracker and expense analytics. [Live Vercel Link](https://wealth-iq-tau.vercel.app)
    - **03 — PORTFOLIO**: This dynamic, responsive 3D developer portfolio website. [GitHub Repo](https://github.com/sanchitaaX/Portfolio)
 4. **🏆 Milestones (Achievements)**:
-   - **Smart India Hackathon Winner**: BEST STARTUP TITLE in Codesphere Hackathon 2026 under the Healthcare domain.
+   - **Hackathon Winner**: BEST STARTUP TITLE in Codesphere Hackathon 2026 under the Healthcare domain.
    - **Core Committee Member**: Contributing to leadership and technical events in the MIBCS club.
    - **Academic Excellence**: Maintaining a stellar SGPA of 8.5+ (highlighted with an AI-generated portrait of confidence).
 5. **📬 Contact**: Interactive connection form paired with social links (GitHub, LinkedIn, Mail).
