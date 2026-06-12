@@ -1,4 +1,4 @@
-# 🎨 Sanchita Vinchu — 3D Pop-Art Portfolio
+# 🎨 Sanchita Portfolio — 3D Pop-Art Portfolio
 
 A dynamic, interactive, and premium pop-art comic-themed 3D developer portfolio website. Built using modern web standards, Vite, custom CSS variables, and stunning animations to create a highly memorable first impression.
 
