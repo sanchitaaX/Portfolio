@@ -102,6 +102,8 @@ section{position:relative;padding:clamp(90px,14vh,160px) clamp(20px,6vw,96px)}
 .btn-ghost:hover{transform:translate(-3px,-3px) rotate(1deg);box-shadow:9px 9px 0 var(--ink);background:var(--yellow)}
 .btn .dot{width:9px;height:9px;border-radius:50%;background:#fff;border:2px solid var(--ink);animation:blink 1.2s infinite}
 .btn-ghost .dot{background:var(--red)}
+.btn-large{font-size:26px;padding:18px 40px;}
+.btn-large .dot{width:12px;height:12px;}
 @keyframes blink{50%{opacity:.25}}
 .hero-meta{position:absolute;bottom:36px;left:clamp(20px,6vw,96px);right:clamp(20px,6vw,96px);display:flex;justify-content:space-between;align-items:flex-end;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);opacity:0;font-weight:500}
 .scroll-hint{display:flex;flex-direction:column;align-items:center;gap:10px}
@@ -125,6 +127,7 @@ section{position:relative;padding:clamp(90px,14vh,160px) clamp(20px,6vw,96px)}
 .h2 .accent-b{color:var(--blue);text-shadow:3px 3px 0 var(--ink)}
 .reveal{opacity:0;transform:translateY(60px)}
 .flip3d{opacity:0;transform:rotateX(-85deg) translateY(40px);transform-origin:top center}
+.slide-flip-left{opacity:0;transform:translateX(-150px) rotateY(-90deg);transform-origin:left center}
 
 /* ---------- about ---------- */
 .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(40px,6vw,90px);margin-top:60px;align-items:start}

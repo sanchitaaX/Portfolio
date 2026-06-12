@@ -436,8 +436,12 @@ gsap.utils.toArray('.flip3d').forEach(el=>{
   gsap.to(el,{opacity:1,rotateX:0,y:0,duration:1.3,ease:'back.out(1.5)',transformPerspective:900,
     scrollTrigger:{trigger:el,start:'top 86%'}});
 });
+gsap.utils.toArray('.slide-flip-left').forEach(el=>{
+  gsap.to(el,{opacity:1,x:0,rotateY:0,duration:1.3,ease:'back.out(1.5)',transformPerspective:900,
+    scrollTrigger:{trigger:el,start:'top 86%'}});
+});
 gsap.utils.toArray('.num[data-count]').forEach(el=>{
-  const target=+el.dataset.count;
+  const target=parseFloat(el.dataset.count);
   ScrollTrigger.create({
     trigger: el,
     start: 'top 88%',
