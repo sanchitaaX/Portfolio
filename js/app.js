@@ -388,7 +388,7 @@ function launch(){
   const tl=gsap.timeline({defaults:{ease:'power4.out'}});
   tl.to('.hero h1 .row span',{y:0,rotateX:0,duration:1.4,stagger:.15,ease:'back.out(1.4)'},.2)
     .to('.hero-tag',{opacity:1,duration:1},.5)
-    .to('.hero-sub',{opacity:1,duration:1},1)
+    .to('.hero-sub',{opacity:1,x:0,duration:1,ease:'back.out(1.5)'},1)
     .to('.hero-actions',{opacity:1,duration:1},1.2)
     .to('.hero-meta',{opacity:1,duration:1},1.4)
     .from(camera.position,{z:24,y:8,duration:2.6,ease:'power3.out'},0);
