@@ -440,6 +440,19 @@ gsap.utils.toArray('.slide-flip-left').forEach(el=>{
   gsap.to(el,{opacity:1,x:0,rotateY:0,duration:1.3,ease:'back.out(1.5)',transformPerspective:900,
     scrollTrigger:{trigger:el,start:'top 86%'}});
 });
+
+const bioCard = document.getElementById('bioCard');
+if(bioCard) {
+  ScrollTrigger.create({
+    trigger: bioCard,
+    start: 'top 86%',
+    onEnter: () => {
+      const tl = gsap.timeline();
+      tl.fromTo(bioCard, { opacity: 0, rotateX: -85, y: 40 }, { opacity: 1, rotateX: 0, y: 0, duration: 1.1, ease: 'back.out(1.5)', transformPerspective: 900 })
+        .fromTo('.bio-text', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.8, stagger: 0.3, ease: 'power3.out' }, "-=0.3");
+    }
+  });
+}
 gsap.utils.toArray('.num[data-count]').forEach(el=>{
   const target=parseFloat(el.dataset.count);
   ScrollTrigger.create({
